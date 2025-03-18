@@ -8,4 +8,6 @@ public class GameOverMenu : MonoBehaviour
     public void goToMainMenu(){
 		SceneManager.LoadScene("MainMenu");
 	}
+
+
 }
