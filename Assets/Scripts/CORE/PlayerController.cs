@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
-    //Vitesse en marchant et en courant
+{   
+	//Vitesse en marchant et en courant
     [SerializeField] private float walk, run;
 
 	//Sensibilité de la souris
 	private float sensitivity = 500;
 	private float speed;
 
-    //private bool isMoving = false;
+    private bool isMoving = false;
 	private bool isRunning = false;
 	
 	private CharacterController cc;
