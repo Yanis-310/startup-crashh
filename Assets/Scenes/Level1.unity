@@ -4181,6 +4181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mesh_office_m_slacker01
       objectReference: {fileID: 0}
+    - target: {fileID: 5232290562797951332, guid: a3589573cd7bfdc4ab46a55f5f9021f7, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: fca391c855e579640bf78564a2dd851f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

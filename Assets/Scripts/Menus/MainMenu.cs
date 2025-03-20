@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject panel_options;
+	[SerializeField] private GameObject panel_credits;
 	
 	void Start(){
 		UnshowOptions();
+		UnshowCredits();
 	}
 	
 	public void PlayGame(){
@@ -22,6 +24,15 @@ public class MainMenu : MonoBehaviour
 	public void UnshowOptions(){
 		panel_options.SetActive(false);
 	}
+	public void ShowCredits()
+    {
+        panel_credits.SetActive(true);
+    }
+
+    public void UnshowCredits()
+    {
+        panel_credits.SetActive(false);
+    }
 	
 	public void QuitGame(){
 		Application.Quit();
