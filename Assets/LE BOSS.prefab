@@ -45,11 +45,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.17
-  m_Speed: 1
+  m_Speed: 0.8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.18
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8591624115926437015}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09b507825ff71e44292708cd76939748, type: 3}
   m_Name: 
@@ -105,11 +105,11 @@ PrefabInstance:
     - target: {fileID: 3275791574416962922, guid: a3589573cd7bfdc4ab46a55f5f9021f7, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9000000, guid: dc523cb225f130945948050f34f17565, type: 3}
     - target: {fileID: 3275791574416962922, guid: a3589573cd7bfdc4ab46a55f5f9021f7, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: ac15d24c5a1be794f84b9212ee8ed3ed, type: 2}
+      objectReference: {fileID: 9100000, guid: b103e678cf18f8a419a29d6a8251d91a, type: 2}
     - target: {fileID: 3275791574423952036, guid: a3589573cd7bfdc4ab46a55f5f9021f7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31
